@@ -1,5 +1,6 @@
 {
   "include": ["src/**/*"],
+  "exclude": ["**/*.test.ts"],
 
   "compilerOptions": {
     "strict": true,
@@ -9,10 +10,14 @@
     "isolatedModules": true,
     "checkJs": true,
     "esModuleInterop": true,
-  
+    "declaration": true,
+
     "moduleResolution": "Bundler",
-    "module": "preserve"
+    "module": "preserve",
+
+    "outDir": "./dist"
   },
+
   "$schema": "https://json.schemastore.org/tsconfig",
   "_version": "2.0.0"
 }

@@ -24,7 +24,7 @@
     "clean": "rm -rf dist",
     "build": "tsc --project tsconfig.build.json",
     "prepublishOnly": "npm run clean && npm run build",
-    "postinstall": "tsc --outDir ./build"
+    "postinstall": "tsc --outDir ./dist"
   },
   "dependencies": {
     "@kristiandupont/recase": "^1.2.1",
