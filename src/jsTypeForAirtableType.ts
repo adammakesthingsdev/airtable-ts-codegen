@@ -31,7 +31,7 @@ export const jsTypeForAirtableType = (field: FieldSchema): string | null => {
     case 'dateTime':
     case 'createdTime':
     case 'lastModifiedTime':
-      return 'number'; // Unix timestamp in seconds
+      return 'number | null'; // Unix timestamp in seconds
     case 'checkbox':
       return 'boolean';
     case 'lookup':

@@ -29,7 +29,7 @@ export var jsTypeForAirtableType = function (field) {
         case 'dateTime':
         case 'createdTime':
         case 'lastModifiedTime':
-            return 'number'; // Unix timestamp in seconds
+            return 'number | null'; // Unix timestamp in seconds
         case 'checkbox':
             return 'boolean';
         case 'lookup':
