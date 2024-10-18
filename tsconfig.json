@@ -7,7 +7,11 @@
     "noImplicitReturns": true,
     "noUncheckedIndexedAccess": true,
     "isolatedModules": true,
-    "checkJs": true
+    "checkJs": true,
+    "esModuleInterop": true,
+  
+    "moduleResolution": "Bundler",
+    "module": "preserve"
   },
   "$schema": "https://json.schemastore.org/tsconfig",
   "_version": "2.0.0"
