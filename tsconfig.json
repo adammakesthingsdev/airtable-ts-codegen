@@ -1,6 +1,14 @@
 {
-  "extends": ["@tsconfig/node-lts/tsconfig.json", "tsconfig-domdomegg/tsconfig.json"],
-  "include": [
-    "src/**/*"
-  ],
+  "include": ["src/**/*"],
+
+  "compilerOptions": {
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "noImplicitReturns": true,
+    "noUncheckedIndexedAccess": true,
+    "isolatedModules": true,
+    "checkJs": true
+  },
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "_version": "2.0.0"
 }
