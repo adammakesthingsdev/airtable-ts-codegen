@@ -22,9 +22,8 @@
     "test:watch": "vitest --watch",
     "lint": "eslint --ext .js,.jsx,.ts,.tsx .",
     "clean": "rm -rf dist",
-    "build": "tsc --project tsconfig.build.json",
-    "prepublishOnly": "npm run clean && npm run build",
-    "postinstall": "tsc --outDir ./dist"
+    "build": "tsc --project tsconfig.json",
+    "prepublishOnly": "npm run clean && npm run build"
   },
   "dependencies": {
     "@kristiandupont/recase": "^1.2.1",

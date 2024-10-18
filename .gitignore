@@ -84,7 +84,7 @@ out
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+#dist
 
 # Gatsby files
 .cache/
@@ -118,5 +118,5 @@ dist
 .pnp.*
 
 # built artifacts
-build/
-dist/
+#build/
+#dist/
