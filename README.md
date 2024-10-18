@@ -1,3 +1,5 @@
+This is a fork of airtable-ts-codegen to allow for null numeric values until it is patched downstream.
+
 # airtable-ts-codegen
 
 Autogenerate TypeScript definitions for your Airtable base

@@ -26,7 +26,7 @@ export const jsTypeForAirtableType = (field: FieldSchema): string | null => {
     case 'percent':
     case 'count':
     case 'autoNumber':
-      return 'number';
+      return 'number | null';
     case 'date':
     case 'dateTime':
     case 'createdTime':
